@@ -5,6 +5,6 @@ class Mercado
   end
 
   def buy
-        puts "Você comprou o #{product} pelo valor de R$#{price}"
+        puts "Você comprou o #{@product} pelo valor de R$#{@price}"
   end
 end
